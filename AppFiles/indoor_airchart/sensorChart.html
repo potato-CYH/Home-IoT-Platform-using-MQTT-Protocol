@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="\indoor_airchart\view\JS\chart.js"></script>
+</head>
+
+<body onresize = "parent.resizeTo(1400,808)" onload="parent.resizeTo(1400, 808)">
+    <div style = "width:1400px;height:808px;">
+        <div style="width : 1400px; height:100px; color:white; font-size:30pt; font-weight:bolder; text-indent: 150;">센서 측정 통계
+        </div>
+        <div style="width:1400px; height:700px;display: flex;">
+            <div style = "width:700px; height:700px;display: flex;flex-direction: column;">
+
+                <div style = "width:700px; height:350px;">
+                    <canvas id="tempChart" width="650" height="300"></canvas>
+                </div>
+                <div style = "width:700px; height:350px; ">
+                    <canvas id="humiChart" width="650" height="300"></canvas>
+                </div>
+
+            </div>
+            <div style="width:700px; height:700px;display: flex;flex-direction: column;">
+                
+                <div style = "width:700px; height:350px; ">
+                    <canvas id="dustChart" width="650" height="300"></canvas>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="\indoor_airchart\view\JS\drawTempChart.js"></script>
+<script type="text/javascript" src="\indoor_airchart\view\JS\drawHumiChart.js"></script>
+<script type="text/javascript" src="\indoor_airchart\view\JS\drawDustChart.js"></script>
+
+</html>

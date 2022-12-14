@@ -1,0 +1,108 @@
+.inner_light_Outline {
+    width: 550px;
+    height: 350px;
+    float: left;
+}
+.inner_light_Frame {
+    width: 550px;
+    height: 350px;
+
+}
+
+.inner_light_Title {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255,255,255);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.inner_light_BlankArea {
+    width: 420px;
+    height: 35px;
+}
+
+.inner_light_Ctrl_Area {
+    width: 550px;
+    height: 285px
+}
+
+.inner_light_Ballimg_disp_area {
+    width: 490px;
+    height: 285px;
+    float: left;
+}
+
+
+.lightball_brightness {
+   width:490px;
+   height:285px;
+   opacity : 0.2; /*default value*/
+}
+
+.inner_light_CtrlInfo_Area {
+    width: 228px;
+    height: 250px;
+    z-index: 2;
+    position: relative;
+    bottom: 240px;
+    left: 200px;
+}
+
+
+.inner_light_BlankArea2 {
+    width: 240px;
+    height: 30px;
+}
+
+
+.timer_icon{
+    width:70px;
+    height:70px;
+    opacity:0.1; /*default value*/
+}
+
+.lightball_state_text {
+    width: 240px;
+    height: 100px;
+    color: rgb(30,30,30);
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "AppleSDGothicNeoM00";
+    text-align: center;
+}
+
+.timer_text_style {
+    width: 240px;
+    height: 100px;  
+    color: rgb(255,255,255);
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "AppleSDGothicNeoL00";
+    text-align:center;
+    position:relative;
+    top:100px;
+}
+
+.inner_light_Timer_ico {
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.inner_light_Timer_val {
+    width: 170px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.inner_light_BlankArea3 {
+    width: 240px;
+    height: 25px;
+}

@@ -1,0 +1,16 @@
+
+.locicon{
+    width:30px;
+    height:60px;
+    float:left;
+}
+
+.locstr{
+    width:470px;
+    height:60px;
+    float:left;
+    font-size: 30pt;
+    font-family: "AppleSDGothicNeoL00";
+    color:rgb(255,255,255);
+    line-height: 1;
+}

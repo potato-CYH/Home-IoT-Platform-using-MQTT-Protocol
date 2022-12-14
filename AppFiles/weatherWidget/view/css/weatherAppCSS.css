@@ -1,0 +1,268 @@
+.WtrDivLine1 {
+    width: 500px;
+    height: 10px;
+}
+.WtrStateArea {
+    width: 400px;
+    height: 150px;
+    padding-left: 15px
+}
+
+.WtrCurrentTemp {
+    width: 210px;
+    height: 150px;
+    float: left;
+    font-size: 110pt;
+    font-family: "AppleSDGothicNeoM00";
+    color: rgb(138, 213, 255);
+}
+.WtrCurIcon {
+    width: 175px;
+    height: 130px;
+    float: left;
+    padding-top: 20px;
+}
+.WtrDivLine2 {
+    width: 300px;
+    height: 20px;
+}
+
+.TodayWthInfoArea {
+    width: 150px;
+    height: 300px;
+    float: left;
+}
+
+.WthTemp {
+    width: 150px;
+    height: 30px;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.TodayWthInfo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    font-size: 30pt;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.TodayWthStates {
+    width: 150px;
+    height: 80px;
+    float: left;
+}
+
+.TodayWthMinIco {
+    width: 65px;
+    height: 50px;
+    float: left;
+}
+
+.Dash {
+    width: 20px;
+    height: 50px;
+    font-size: 33pt;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(168, 168, 168);
+}
+
+.TodayWthMaxIco {
+    width: 65px;
+    height: 50px;
+    float: right;
+}
+
+.WthDivLine3 {
+    width: 300px;
+    height: 5px
+}
+
+.TomorrowWthInfoArea {
+    width: 150px;
+    height: 300px;
+    float: left;
+}
+
+.TomorrowWthInfo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    font-size: 30pt;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.TomorrowWthStates {
+    width: 150px;
+    height: 80px;
+    float: left;
+}
+
+.TomorrowWthMinIco {
+    width: 65px;
+    height: 50px;
+    float:left;
+}
+
+.TomorrowWthMaxIco {
+    width: 65px;
+    height: 50px;
+    float: right;
+}
+
+.WtrDivLine4 {
+    width: 500px;
+    height: 40px;
+}
+
+.WtrWndHmArea {
+    width: 368px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.WtrHmArea {
+    width: 125px;
+    height: 58px;
+    float: left;
+    padding-left: 5px;
+}
+
+.WtrHmIcon {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.WtrHmData {
+    width: 58px;
+    height: 50px;
+    float: inherit;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 33pt;
+    color: rgb(255, 255, 255);
+}
+
+.WtrWndArea {
+    width:424px;
+    height: 50px;
+    
+}
+
+.WtrWndIcon {
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+
+.WtrWndspd {
+    width: 97px;
+    height: 50px;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 33pt;
+    color: rgb(255, 255, 255)
+}
+
+.bar {
+    width: 25px;
+    height: 50px;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 33pt;
+    color: rgb(100,100,100);
+}
+
+.WtrWndict {
+    width: 80px;
+    height: 50px;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 33pt;
+    color: rgb(182, 255, 0);
+}
+
+.forecast-4{
+    width:194px;
+    height:90px;
+    color:white; 
+    font-family:AppleSDGothicNeoM00;
+    font-weight: bolder; 
+    font-size: 30pt;
+    text-align:center;
+   
+}
+.forecast-5{
+    width:194px;
+    height:90px;
+  
+}
+.forecast-6{
+    width:96px;
+    height:90px;
+    position:absolute;
+    
+}
+.forecast-7{
+    width:2px;
+    height:90px;
+    position:absolute; 
+    left:97px;
+
+}
+.forecast-8{
+    width:96px;
+    height:90px;
+    position:absolute;
+    left:98px; 
+    
+}
+.forecast-9{
+    width:194px;
+    height:50px;
+    color:white; 
+    font-family:AppleSDGothicNeoM00;
+    font-weight: bolder; 
+    font-size: 22pt; 
+    text-align: center; 
+    }
+.forecast-10{
+    width:30px;
+    height:175px;
+    position:absolute;
+    left:82px;
+    background-color: black;
+    
+}
+.forecast-11{
+    width:194px;
+    height:50px;
+    position:absolute;
+    top:89%; 
+    color:white; 
+    font-family:AppleSDGothicNeoM00;
+    font-weight: bolder;
+    font-size: 22pt; 
+    text-align: center;
+    }
+.forecast-bar{
+    width:30px;
+    height:175px;
+    position:relative;
+    background-color: rgb(230, 255, 193);
+    
+}
+.forecast-bar2{
+    width:30px;
+    height:175px;
+    position:relative;
+    background-color: rgb(230, 255, 193);
+}

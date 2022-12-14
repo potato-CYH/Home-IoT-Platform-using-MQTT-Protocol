@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="\weatherWidget\view\css\weatherAppCSS.css">
+    </head>
+    <body onresize = "parent.resizeTo(500, 260)" onload="parent.resizeTo(500, 260)" style="background-color:rgb(0,0,0);">
+        <div class="WtrDivLine1"></div>           
+
+        <div class="WtrStateArea">
+            <div class="WtrCurIcon">
+                <img id="iconimg" style="width:200px; height:130px;">
+            </div>
+            <div id="currentTemp" class="WtrCurrentTemp"></div>
+        </div>
+        
+        <div class="WtrDivLine2"></div>
+        
+        <div class="WtrWndHmArea">
+            <div class="WtrHmArea">
+                <div class="WtrHmIcon">
+                    <img style="width:40px;height:50px;" src="\weatherWidget\view\res\humidity_icon.png">
+                </div>
+                <div id="humidity_property" class="WtrHmData"></div>
+            </div>
+        
+            <div class="WtrWndArea">
+                <div class="WtrWndIcon">
+                    <img style="width:60px;height:50px;" src="\weatherWidget\view\res\wind.png">
+                </div>
+                <div id="wind_spd" class="WtrWndspd">3.6</div>
+                <div class="bar">|</div>
+                <div id="wind_dict" class="WtrWndict">NW</div>
+            </div>
+        </div><!-- 구분선 -->
+        <div style="width:500px;height:548px;">
+            <div style = "width:388px;height:456px; position:relative;top:7%;left:11%;">
+                <div style = "width:194px;height:456px;position:absolute;">
+                    <div class = "forecast-4">내일</div>
+                    <div class = "forecast-5">
+                        <div class = "forecast-6">
+                            <img id="tomoDay" style="width:96px;height:80px">
+                        </div>
+                        <div class = "forecast-7">
+                            <img id="tomoNight" style="width:96px;height:80px">
+                        </div>
+                        <div class = "forecast-8"></div>    
+                    </div>
+                    <div id="tomoMaxTemp" class = "forecast-9"></div>
+                    <div class = "forecast-10">
+                        <div class="forecast-bar"></div>
+                    </div>
+                    
+                    <div id = "tomoMinTemp" class = "forecast-11"></div>
+                </div>
+                <div style = "width:194px;height:456px;position:absolute;left:50%;">
+                    <div class = "forecast-4">모레</div>
+                    <div class = "forecast-5">
+                        <div class = "forecast-6">
+                            <img id="dftomoDay" style="width:96px;height:80px">
+                        </div>
+                        <div class = "forecast-7">
+                            <img id="dftomoNight" style="width:96px;height:80px">
+                        </div>
+                        <div class = "forecast-8"></div>    
+                    </div>
+                    <div id="dftomoMaxTemp" class = "forecast-9">2</div>
+                    <div class = "forecast-10">
+                        <div class="forecast-bar2"></div>
+                    </div>
+                    
+                    <div id = "dftomoMinTemp" class = "forecast-11">3</div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src = "\weatherWidget\view\js\weatherAppJs.js"></script>
+</html>

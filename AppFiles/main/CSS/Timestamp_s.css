@@ -1,0 +1,41 @@
+﻿
+
+.ClkDate {
+    width: 400px;
+    height: 60px;
+    font-size: 40pt;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255, 255, 255);
+    float: right;
+    padding-top: 12px;
+}
+
+
+.ClkTime {
+    width: 445px;
+    height: 80px;
+    padding-left: 55px;
+}
+
+
+.ClkHhMm{
+    height:100px;
+    float:left;
+    font-size:60pt;
+    font-family:MirrorFontM;
+    font-weight:800;
+    color:rgb(255, 255, 255);
+    line-height:1;
+}
+
+.ClkAmPm {
+    width: 100px;
+    height: 70px;
+    float: left;
+    padding-top: 23px;
+    padding-left: 8px;
+    font-size: 40pt;
+    font-family: "AppleSDGothicNeoM00";
+    color: rgb(181,181,181);
+    line-height: 1;
+}
