@@ -1,0 +1,78 @@
+﻿<html><head>
+    <meta charset="utf-8">
+    <title>Smart Displat iMirror Flatform</title>
+
+    <!-- 자바스크립트 파일 불러오기(improt start) -->
+    <!--Jquery 라이브러리 사용 -->
+    <script type="text/javascript"  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- 크로스 도메인 보안정책 차단 해제 플러그인 로드 -->
+    <script type="text/javascript" src="main/javascript/jquery.ajax-cross-origin.min.js"></script>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <!--CSS 파일 로딩 시작 -->
+   
+    <!-- 메인 플랫폼 CSS로딩 -->
+    <link rel="stylesheet" type="text/css" href="main/CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="main/CSS/Timestamp_s.css">
+    <!-- CSS로딩 끝-->
+
+</head>
+
+
+<!--body 영역 : 배경색-검정/ 시스템 점검 running -->
+<body style="background-color:rgb(0, 0, 0);width:1400px;height:968px;">
+    <!-- 플랫폼 소프트웨어 디스플레이 영역-->
+    <!--page1-->
+    <div style="width:1400px;height:968px">
+        <div style="width: 734px;height:80px;float: right;">
+            <div id="clock_Date" class="ClkDate"></div>
+        </div>
+        <!-- System using area-->
+        <!-- 디폴트 앱 : 위치 수신-->
+        <div id="locationApp" style = "width: 500px;height: 56px;"></div>
+        <!--시간 위젯 : 미러 시스템에 고정-->
+        <div class="ClkTime">
+            <div id="clock_time" class="ClkHhMm"></div>
+            <div id="am_pm" class="ClkAmPm"></div>
+        </div>
+        <div id = "page1" style="width:1400px; height:808px;" >
+            <!-- 좌측 위젯 영역 -->
+            <div class="WidgetArea">
+    
+                <!-- 빈 영역 -->
+                <div class="BlankArea"></div>   
+    
+                <!--좌측 위젯 사용자 앱 영역1 -->
+                <div id="weatherApp" style="width:500px;height: 818px;"></div>
+              
+            </div>
+    
+            <!--우측 위젯 영역-->
+            <div style="width:750px;height:720px;float:right;padding-top: 40px; padding-left:5px;padding-right:5px;padding-bottom:5px;margin-top:-818px">
+                <!-- 우측 위젯 사용자 앱 영역1 -->
+                <div id = "inairInfoApp" style="width:750px;height:380px;"></div>
+                <!-- 우측 위젯 사용자 앱 영역2 -->
+                <div id = lightControlApp style="width:750; height: 350;"></div>  
+            </div>
+        
+        </div>
+
+        <!--page2-->
+        <div id = "page2" style="width:1400px;height:968px">
+            <div id = "sensorChartApp" style="width:1400px;height:968px">
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+    
+<!-- 페이지 전환(main.js) 로드 -->
+<script type="text/javascript" src="main/javascript/main.js"></script>
+<!-- 시간제어(time.js)  로드 -->
+<script type="text/javascript" src = "main/javascript/time.js"></script>
+<!-- AppView 설정파일 로드 -->
+<script type = "text/javascript" src = "view_config/view_config.js"></script>
+
+</html>

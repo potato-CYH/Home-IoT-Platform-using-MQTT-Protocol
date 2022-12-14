@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="\inner_Air_display\view\css\inAirInfoAppCSS.css">
+
+    </head>
+    <body onresize = "parent.resizeTo(750,380)" onload="parent.resizeTo(750, 380)" style="background-color:rgb(0,0,0);">
+        <div class="inAir_Quality_Pannel_Frame">
+            <div class="inAir_Pannel_Title">실내 환경</div>
+            <div style="width:300px;height: 73px;padding-top: 10px;">
+                <div class="inner_Title">
+                    <div class="infactor">온도</div>
+                    <div class="infactor">습도</div>
+                    <div class="infactor">미세먼지</div>
+                    <div class="infactor">초미세먼지</div>
+                </div>
+
+                <div style="width:720px;height:40px;padding-left:30px;">
+                    <div class="inner_TempHumi_Block">
+                        <div class="intmphumival" id="Temp">--</div>
+                        <div class="intmphumival" id="humidity">--</div>
+                    </div>
+                    <div class="pm25">
+                        <div id="pm10" class="pm10_valueClr" style="color: rgb(0, 165, 0);">--</div>
+                        <div id="pm25" class="pm25_valueClr" style="color: rgb(0, 165, 0);">--</div>
+                    </div>
+                </div>
+                <div style="width:360px;height:233px;padding-left:30px;float:left;padding-top: 15px;">
+                    <div style="width:180px;height:233px;float:left">
+                        <div class="intemp_meter"></div>
+                    </div>
+                    <div class="inhumi_meter">
+                        <img style="width:160px;height:206px;z-index: -3;" src="\inner_Air_display\view\res\cupline.png">
+                        <div style="width:160px;height: 200px;float:left;position: relative;bottom: 206px;background-color: #000000;z-index:-2;">
+                            <img style="width: 160px;height: 200px;" src="\inner_Air_display\view\res\cup.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="inner_Air_pinArea">
+                <div class="inner_Air_MeasurementPin_pm10">
+                    <img style="width:110px;height:57px;padding-left: 20px;padding-top: 10px;" src="\inner_Air_display\view\res\measuremeter.png">
+                    <img src="\inner_Air_display\view\res\measuremeter_pin.png" class="pm10_pinpointer">
+                </div>
+                <div class="inner_Air_MeasurementPin_pm25">
+                    <img style="width:110px;height:57px;padding-left: 20px;padding-top: 10px;" src="\inner_Air_display\view\res\measuremeter.png">
+                    <img src="\inner_Air_display\view\res\measuremeter_pin.png" class="pm25_pinpointer">
+                </div>
+                <div style="width:360px;height:120px;float:right;">
+                    <div id="PM10_description" class="pm10_descriptClr">--</div>
+                    <div id="PM25_description" class="pm25_descriptClr">--</div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </body>
+    <script type="text/javascript" src = "\inner_Air_display\view\js\inAirInfoAppJS.js"></script>
+</html>

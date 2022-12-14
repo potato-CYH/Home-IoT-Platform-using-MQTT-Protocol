@@ -1,0 +1,242 @@
+
+.inAir_Quality_Pannel_Outline {
+    width: 750px;
+    height: 380px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.inAir_Pannel_Title {
+    width: 750px;
+    height: 40px;
+    font-size: 30px;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(255,255,255);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.inner_Title {
+
+    width: 720px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+.infactor {
+    width: 180px;
+    height: 30px;
+    float: left;
+    font-size: 17pt;
+    font-family: "AppleSDGothicNeoL00";
+    color: rgb(236, 255, 70);
+    text-align: center;
+}
+
+.intmphumival {
+    width: 180px;
+    height: 40px;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 30px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+.inner_TempHumi_Block {
+    width: 360px;
+    height: 40px;
+    float:left;
+}
+
+
+.inner_Temp_ico {
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+.inner_Temp_val {
+    width: 105px;
+    height: 40px;
+    float: left;
+    color: rgb(255,255,255);
+    font-size: 25px;
+    font-family: "AppleSDGothicNeoM00";
+    line-height: 1.8;
+    padding-left: 10px;
+}
+
+.intemp_meter {
+    width: 40px;
+    height: 2px;
+    position: relative;
+    left: 75px;
+    top: 198px;
+    background-color: rgb(255, 0, 0);
+}
+.inner_Humi_ico {
+    width: 30px;
+    height: 40px;
+    float: left;
+}
+
+.inner_Humi_val {
+    width: 105px;
+    height: 40px;
+    float: left;
+    color: rgb(255,255,255);
+    font-size: 25px;
+    font-family: "AppleSDGothicNeoM00";
+    line-height: 1.8;
+    padding-left: 10px;
+}
+
+.inhumi_meter {
+    width: 160px;
+    height: 190px;
+    float: left;
+    position: relative;
+    left: 12px;
+    background-color: black;
+}
+.inner_Air_Title {
+    color: rgb(111, 177, 216);
+    width: 294px;
+    height: 20px;
+    font-size: 19px;
+    font-family: "AppleSDGothicNeoM00";
+    padding-left: 6px;
+}
+
+.inner_Air_Block {
+    width: 300px;
+    height: 50px;
+}
+
+.inner_Air_pm10_Str {
+    width: 145px;
+    height: 50px;
+    float: left;
+    color: rgb(179, 178, 178);
+    font-size: 38px;
+    text-align: center;
+    font-family: "AppleSDGothicNeoL00";
+}
+
+.inner_Air_Str_divL {
+    width: 10px;
+    height: 50px;
+    float: left;
+    color: rgb(50, 50, 50);
+    font-size: 33px;
+}
+
+
+.inner_Air_pm25_Str {
+    width: 145px;
+    height: 50px;
+    float: left;
+    color: rgb(179, 178, 178);
+    font-size: 38px;
+    text-align: center;
+    font-family: "AppleSDGothicNeoL00";
+}
+
+.inner_Air_pinArea {
+    width: 360px;
+    height: 200px;
+    float:right;
+    padding-top:30px;
+}
+
+.inner_Air_MeasurementPin_pm10 {
+    width: 168px;
+    height: 80px;
+    float: left;
+    padding-left: 12px;
+}
+
+.inner_Air_MeasurementPin_pm25 {
+    width: 165px;
+    height: 80px;
+    float: right;
+    padding-left: 15px;
+}
+.pm10_valueClr {
+    width: 180px;
+    height: 40px;
+    float: left;
+    color: rgb(255,255,255);
+    font-family: "AppleSDGothicNeoL00";
+    font-size:30px;
+    text-align: center;
+}
+.pm25_valueClr {
+    width: 180px;
+    height: 40px;
+    float: left;
+    color: rgb(255,255,255);
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 30px;
+    text-align: center;
+}
+
+.pm10_descriptClr {
+    width: 180px;
+    height: 100px;
+    float: left;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 30px;
+    color: rgb(255,255,255);
+    text-align:center;
+}
+
+.pm25_descriptClr {
+    width: 180px;
+    height: 100px;
+    float: right;
+    font-family: "AppleSDGothicNeoL00";
+    font-size: 30px;
+    color: rgb(255,255,255);
+    text-align:center;
+}
+
+.pm10_pinpointer {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+    left: 19.5px;
+    top: -64px;
+    transform:rotate(14deg);
+}
+
+.pm25_pinpointer {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+    left: 19.5px;
+    top: -64px;
+    transform:rotate(14deg);
+}
+
+.inner_Air_val_Area {
+    width: 360px;
+    height: 32px;
+    float:left;
+    padding-top:8px;
+}
+
+
+inner_Air_descript_Area {
+    width: 300px;
+    height: 60px;
+}
+
+
+.inner_Air_BlankArea {
+    width: 300px;
+    height: 25px
+}
